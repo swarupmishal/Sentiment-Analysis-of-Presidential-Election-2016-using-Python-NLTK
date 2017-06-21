@@ -1,23 +1,24 @@
 # Sentiment Analysis using NYTimes
 
-![alt text](https://github.com/swarupmishal/Exploratory-Data-Analysis-of-Enron-Scandal/blob/master/Extras/Enron.jpg)
+![alt text](https://github.com/swarupmishal/NYTimes-Data-Analysis/blob/master/Extras/newyorktimes-logo.jpg)
 
 
 # What exactly the Data is?
-### Enron Email Dataset
-This dataset was collected and prepared by the CALO Project (A Cognitive Assistant that Learns and Organizes). It contains data from about 150 users, mostly senior management of Enron, organized into folders. The corpus contains a total of about 0.5M messages. This data was originally made public, and posted to the web, by the Federal Energy Regulatory Commission during its investigation.
-
+### Data using Article Search api
+Dataset: Article Search dataset for Obama and Trump gathered using api-key. I have collected about 120 json files related to both Obama and Trump, each consisting about 10 articles. So basically 2400 articles were used in all for analyzing the data.
 
 # How can one obtain the Data?
-One can download the dataset using the following link:
+All the information for downloading the data is provided in here:
 
-https://www.cs.cmu.edu/~./enron/enron_mail_20150507.tgz
+http://developer.nytimes.com/
+
+1. You would need to create an API key.
+2. Use request or beautiful-soap library to download the data. (No other library or crawler allowed).
+3. Store the data in your local machine.
 
 
 # How is the Data stored?
-CMU ENRON Dataset 1.82 GB of email data from all the employees of ENRON starting from December 1999 to November 2001. The dataset consists of 517,431 messages that belong to 150 users, mostly senior management of the Enron Corp, organized into folders. Although the dataset is huge, folders of particular users are often quite sparse.
-
-The dataset here does not include attachments, and some messages have been deleted "as part of a redaction effort due to requests from affected employees". Invalid email addresses were converted to something of the form user@enron.com whenever possible (i.e., recipient is specified in some parse-able format like "Doe, John" or "Mary K. Smith") and to no_address@enron.com when no recipient was specified.
+The data is stored in the form of json files.
 
 
 # Analysis:
