@@ -1,5 +1,4 @@
 # Sentiment Analysis using NYTimes
-
 ![alt text](https://github.com/swarupmishal/NYTimes-Data-Analysis/blob/master/Extras/newyorktimes-logo.jpg)
 
 
@@ -29,12 +28,12 @@ The data is stored in the form of json files.
 
 ###### Analysis1:
 Here I am trying to analyze sentiments of authors of NYTimes. For this analysis I have used the article search api to get data for President Donald Trump and former President Barrack Obama
+![alt text](https://github.com/swarupmishal/NYTimes-Data-Analysis/blob/master/que%5B2%5D/ana_%5B2%5D/1.png)
 
 ###### Analysis2:
 Here I am trying to analyze sentiments of people after the results of Presidential Election were declared on 9th of November, 2016
 For this analysis I have used community api to get data from 11/10/2016 to 11/30/2016
 
-We can see list of emails Jeffrey Skilling interacted the most with [here.](https://github.com/swarupmishal/Exploratory-Data-Analysis-of-Enron-Scandal/blob/master/que%5B1%5D/ana_%5B1%5D/Skilling%20interaction%20email%20frequency.csv)
 
 # Conclusion:
 ###### Conclusion1:
