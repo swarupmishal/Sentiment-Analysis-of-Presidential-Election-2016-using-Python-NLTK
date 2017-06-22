@@ -28,6 +28,7 @@ The data is stored in the form of json files.
 
 ###### Analysis1:
 Here I am trying to analyze sentiments of authors of NYTimes. For this analysis I have used the article search api to get data for President Donald Trump and former President Barrack Obama
+
 ![alt text](https://github.com/swarupmishal/NYTimes-Data-Analysis/blob/master/que%5B2%5D/ana_%5B2%5D/1.png)
 
 ###### Analysis2:
