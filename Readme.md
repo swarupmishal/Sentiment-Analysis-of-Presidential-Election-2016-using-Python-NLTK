@@ -5,7 +5,11 @@
 
 # What exactly the Data is?
 ### Data using Article Search api
-Dataset: Article Search dataset for Obama and Trump gathered using api-key. I have collected about 120 json files related to both Obama and Trump, each consisting about 10 articles. So basically 2400 articles were used in all for analyzing the data.
+###### Dataset1: 
+Article Search dataset for Obama and Trump gathered using api-key. I have collected about 120 json files related to both Obama and Trump, each consisting about 10 articles. So basically 2400 articles were used in all for analyzing the data.
+
+###### Dataset2: 
+Community dataset regarding Presidential Election using community api-key. Data was collected for the month of November from 11/10/2016 to 11/30/2016. For this question, I am trying to analyze sentiments of users after the results of Presidential Election were declared on 9th of November, 2016.
 
 # How can one obtain the Data?
 All the information for downloading the data is provided in here:
@@ -22,17 +26,20 @@ The data is stored in the form of json files.
 
 
 # Analysis:
-We can see when the meeting emails were sent [here.](https://github.com/swarupmishal/Exploratory-Data-Analysis-of-Enron-Scandal/blob/master/que%5B1%5D/ana_%5B1%5D/Distribution%20of%20meeting%20emails%20sent%20over%20time.csv)
 
-We can see when the casual emails were sent [here.](https://github.com/swarupmishal/Exploratory-Data-Analysis-of-Enron-Scandal/blob/master/que%5B1%5D/ana_%5B1%5D/Distribution%20of%20casual%20emails%20sent%20over%20time.csv)
+###### Analysis1:
+Here I am trying to analyze sentiments of authors of NYTimes. For this analysis I have used the article search api to get data for President Donald Trump and former President Barrack Obama
 
-We can see when the core emails were sent [here.](https://github.com/swarupmishal/Exploratory-Data-Analysis-of-Enron-Scandal/blob/master/que%5B1%5D/ana_%5B1%5D/Distribution%20of%20core%20emails%20sent%20over%20time.csv)
-
-We can see when the process related emails were sent [here.](https://github.com/swarupmishal/Exploratory-Data-Analysis-of-Enron-Scandal/blob/master/que%5B1%5D/ana_%5B1%5D/Distribution%20of%20process%20emails%20sent%20over%20time.csv)
+###### Analysis2:
+Here I am trying to analyze sentiments of people after the results of Presidential Election were declared on 9th of November, 2016
+For this analysis I have used community api to get data from 11/10/2016 to 11/30/2016
 
 We can see list of emails Jeffrey Skilling interacted the most with [here.](https://github.com/swarupmishal/Exploratory-Data-Analysis-of-Enron-Scandal/blob/master/que%5B1%5D/ana_%5B1%5D/Skilling%20interaction%20email%20frequency.csv)
 
 # Conclusion:
-From the outputs seen above we can understand number of meeting related emails, casual emails, process related emails and core business related emails and when they were sent. We can analyze that most of the enron emails consisted of Business Process. Casual meeting related emails were more than official meeting, which can be a result of fraudulent activities carried on within Enron. There were moderate number of core business related emails sent. If we observe carefully there is a huge spike in core business emails towards the end, maybe to hide their fraudulent activities. 
+###### Conclusion1:
+We can conclude that NYTimes do publish articles which are more neutral in case of Obama. Also we can see that NYTimes.com do publish a lot of negative articles in case of Trump. From the graph we can also analyze, in case of positive articles, when 240 positive articles about Trump were published, 274 positive articles about Obama were published. While in case of negative articles when 277 negative articles regarding Obama, a considerable amount of 397 negative articles
+were published about Trump. Thus, we can conclude that most of the authors of NYTimes of the articles write in favor of Obama.
 
-Also we have analyzed top 10 emails whom Jeffrey Skilling, the CEO of Enron, who was involved in the scandal interacted with. Further investigation can be carried out on these emails.
+###### Conclusion2:
+We can conclude that the number of users on NYTimes.com, not happy with the result of the presidential election are more. As we can see the number of negative comments is more than the number of positive comments.
