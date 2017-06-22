@@ -32,8 +32,7 @@ Here I am trying to analyze sentiments of authors of NYTimes. For this analysis 
 ![alt text](https://github.com/swarupmishal/NYTimes-Data-Analysis/blob/master/que%5B2%5D/ana_%5B2%5D/1.png)
 
 ###### Analysis2:
-Here I am trying to analyze sentiments of people after the results of Presidential Election were declared on 9th of November, 2016
-For this analysis I have used community api to get data from 11/10/2016 to 11/30/2016
+Here I am trying to analyze sentiments of people after the results of Presidential Election were declared on 9th of November, 2016. For this analysis I have used community api to get data from 11/10/2016 to 11/30/2016
 
 
 # Conclusion:
