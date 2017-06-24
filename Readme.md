@@ -1,4 +1,4 @@
-# Sentiment Analysis using NYTimes
+# Sentiment Analysis of NYTimes using Python
 ![alt text](https://github.com/swarupmishal/NYTimes-Data-Analysis/blob/master/Extras/newyorktimes-logo.jpg)
 
 
