@@ -3,11 +3,11 @@
 
 
 ## What exactly the Data is?
-### Data using Article Search api
+### Data scraping using Article Search api
 ###### Dataset1: 
 Article Search dataset for Obama and Trump gathered using api-key. I have collected about 120 json files related to both Obama and Trump, each consisting about 10 articles. So basically 2400 articles were used in all for analyzing the data.
 
-### Data using Community api
+### Data scraping using Community api
 ###### Dataset2: 
 Community dataset regarding Presidential Election using community api-key. Data was collected for the month of November from 11/10/2016 to 11/30/2016. For this question, I am trying to analyze sentiments of users after the results of Presidential Election were declared on 9th of November, 2016.
 
